@@ -1,7 +1,7 @@
 # Viral Proteins Cluster Representative Proteins
 
 ## Description
-This repository contains python scripts to get one protein (representative) for each protein clusters in viruses.
+This repository contains python scripts to get one protein (representative) for each protein clusters in viruses from NCBI clusters DB.
 Also, one text file with all viral protein clusters Cluster_ACCNs.txt and the resulting reps in rep_Proteins.csv.
 The data was extracted from the NCBI Protein Clusters DB data available and can be found under the link:
 https://ftp.ncbi.nih.gov/genomes/CLUSTERS/
@@ -16,7 +16,7 @@ https://ftp.ncbi.nih.gov/genomes/CLUSTERS/
 #### Description:
 
 This Python code retrieves a list of protein clusters' Accession numbers (ACCNs) for a specific 
-taxonomic group of viruses from the NCBI protein clusters database. 
+taxonomic group by using the txid from the NCBI protein clusters database. 
 
 
 ### Script Name: protein_clusters_reps.py

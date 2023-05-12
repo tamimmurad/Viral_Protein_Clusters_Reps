@@ -5,8 +5,8 @@ Script Name: protein_cluster_ACCN.py
 
 Description:
 
-This Python code retrieves a list of protein clusters' Accession numbers (ACCNs) for a specific 
-taxonomic group of viruses from the NCBI protein clusters database. 
+This Python code retrieves a list of protein clusters' Accession numbers (ACCNs) for the  
+taxonomic group of viruses (txid=10239) from the NCBI protein clusters database. 
 
 Functions: get_cACCN(clusterID,idList)
 
@@ -77,13 +77,3 @@ file = open('Cluster_ACCNs.txt','w')
 file.write('\n'.join(clusterACCNs))
 file.close()
 
-#%%
-#import multiprocessing
-# if __name__ == '__main__':
-#     pool_obj = multiprocessing.Pool(processes=32)
-#     ans = pool_obj.map(get_cACCN,clusterIDs) 
-    
-#     pool_obj.close()   
-#get_cACCN('2510248', clusterACCNs)
-#database = df.read_csv("./All clusters/all_clusters.txt",delimiter=('\t'))
-#clusterPr = database[databse['#cluster'] ==]

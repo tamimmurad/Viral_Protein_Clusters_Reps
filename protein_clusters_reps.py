@@ -73,24 +73,4 @@ seconds = time.time()-start
 print("Job is done in %d seconds !!!!" %seconds)
 
 
-#%%
-#import multiprocessing
-#from functools import partial
-# def pop_clust_prot(accn,dfIn):
-#     dfOut=dfIn[dfIn['#cluster']==accn].sort_values(by=['length'],ascending=False).head(1)
-#     print('cluster ' + accn)
-#     return list(dfOut)
-    
-    
-
-
-# func = partial(pop_clust_prot, clusterDF)
-# if __name__ == '__main__':
-    
-    
-#     pool_obj = multiprocessing.Pool(multiprocessing.cpu_count())
-#     print('starting to start with %d cpus' % multiprocessing.cpu_count())
-#     ans = pool_obj.map(func,clusterACCNs[0:100]) 
-#     print('ending')
-#     pool_obj.close()   
 
