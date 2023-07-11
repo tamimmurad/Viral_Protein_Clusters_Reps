@@ -1,5 +1,5 @@
 # Viral Proteins Cluster Representative Proteins
-
+Note: This part was later ignored as the NCBI cluster database covers only around 26,000 viral proteins. Please refere to https://github.com/tamimmurad/viral_protein_clustering to find how a more comprehensive clustering was performed.
 ## Description
 This repository contains python scripts to get one protein (representative) for each protein clusters in viruses from NCBI clusters DB.
 Also, one text file with all viral protein clusters Cluster_ACCNs.txt and the resulting reps in rep_Proteins.csv.
